@@ -1,0 +1,35 @@
+.home {
+  background-color: #ffc107;
+  color: white;
+  padding-top: 25px;
+}
+
+.caixa {
+  padding: 60px 0;
+  border: 1px solid #e5e5e5;
+}
+
+@media only screen and (max-width: 428px) {
+  form {
+    width: 325px;
+    margin: 0 auto;
+  }
+
+  .rede-social {
+    text-align: center;
+  }
+
+  h1.display-4 {
+    font-size: 40px;
+  }
+
+  form {
+    width: 280px;
+  }
+}
+
+@media only screen and (max-width: 325px) {
+  form {
+    width: 285px;
+  }
+}
